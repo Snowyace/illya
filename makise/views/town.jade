@@ -1,0 +1,30 @@
+html
+  
+  header 
+    
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+    link(rel="stylesheet" href="/css/tsunemori.css")
+    nav
+      ul#nav-list
+        li 
+          a(href='/inn', title='Inn') Inn
+  body
+    
+    h1 #{fortune}
+    div(style='width:200px;height:100px')
+      h1#field #{title}
+    div#test
+      button#book(type="button" class="btn btn-default") Library
+
+   
+    
+    h1 Hello
+    p #{message}
+    p #{greeting}
+  //-
+    each item in stuff
+    h2 #{item.name}
+    p The cost is: #{item.coin} 
+  
+  script(src='//code.jquery.com/jquery-1.11.3.min.js')
+  script(src='/scripts/kurisu.js')
