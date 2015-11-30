@@ -11,7 +11,7 @@ $( "#field" ).on({
 //
 $('#book').click(function(){
   var vis = $('h1#field').css("visibility");
-  (vis == "visible") ? $('h1#field').css("visibility", "hidden") : $('h1#field').css("visibility","visible");
+  (vis == "visible") ? $('h1#field').css("visibility", "hidden") : $('h1#field').css("visibility","visible");  // jshint ignore:line
 
 });
 

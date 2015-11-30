@@ -19,9 +19,14 @@ body {
     
 }
 
+#title{
+    display:inline-block;
+    padding-left: .5em;
+}
+
 table {
     border-collapse: collapse;
-    background: #A7C942;
+    background: #A7C943;
    
 }
 

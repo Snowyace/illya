@@ -31,8 +31,7 @@ exports.inn = (function(req, res){
     itemdb.find(function(err, items) {
         if(!items.length){seeding.initSeed()}
     });
-    itemdb.find(function(err, items){
-        // created a new array where it added only the name and coin as an object element in the array "storing"
+    itemdb.find(function(err, items){        // created a new array where it added only the name and coin as an object element in the array "storing"
         // Stripped _id and __v by not including it in the return when mapping
         //temp holds each current loop instance element of items 
             storing = items.map(function(temp){

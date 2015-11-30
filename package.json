@@ -14,7 +14,17 @@
     "node": "^0.0.0",
     "session-mongoose": "^0.5.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-express": "^1.4.1",
+    "grunt-express-server": "^0.5.1",
+    "jshint-stylish": "latest"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

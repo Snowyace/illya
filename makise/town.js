@@ -5,6 +5,7 @@ var app = express();
 app.set('view engine', 'jade');
 
 app.use(express.static(__dirname + '/public')); //any static files requested by src/href will be directed to the public directory through this method
+app.set('views', __dirname + '/views');
 app.set('port', process.env.PORT || 3000);
 
 var bodyParser = require('body-parser');
